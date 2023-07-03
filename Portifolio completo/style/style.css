@@ -5,7 +5,7 @@
     padding: 0;
 }
 :root {
-    --texto-tamanho: 2.25rem /*com o rem ele altera o tamanho do texto conforme o navegador - tamanho pequeno até o grande*/
+    --texto-tamanho: 2.25rem
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 10%;/*espaçar - 1º superior 2º direito 3º inferior 4º esquerdo*/
+    padding: 2% 0% 0% 10%;
 }
 
 .cabecalho__menu {
@@ -35,8 +35,8 @@ body {
 
 .apresentacao {
     /*padding: 0% 0% 0% 0%; -Não está dando certo*/
-    margin: 10% 15%; /* adiciona uma margem para centralizar os quadrados na tela*/
-    display: flex; /* coloca os quadrados lado a lado */
+    margin: 10% 15%;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 82px;
@@ -65,27 +65,27 @@ body {
 
 .apresentacao__links {
     display: flex;
-    flex-direction: column; /*forma da coluna - posicionar verticalmente*/
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center; /*centralizar as tabelas*/
-    gap: 32px; /*espaçamento*/
+    align-items: center;
+    gap: 32px;
 }
 
 .apresentacao__links__subtitulo{
-    font-family: 'Krona One', sans-serif; /**/
+    font-family: 'Krona One', sans-serif; 
     font-weight: 400;
     font-size: 1.5rem;
 }
 .apresentacao__links__navegacao {
     /* background-color: black; */
-    display: flex; /*alinhar a imagem com o texto*/
-    justify-content: center; /*centralizar o texto e a imagem*/
-    gap: 16px; /*Espaçamento da imagem com o texto*/
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     width: 378px;
-    border: 2px solid #22D4FD; /*cor na borda, solid é o estilo da borda*/
+    border: 2px solid #22D4FD;
     text-align: center;
     font-weight: 600;
-    border-radius: 8px; /*curva os pontos do retangulo*/
+    border-radius: 8px; 
     font-size: 1.5rem; 
     padding: 21.5px 0px;
     text-decoration: none;
@@ -93,7 +93,6 @@ body {
 }
 
 .apresentacao__links__navegacao:hover {  
-    /*hover é usado para selecionar elementos quando você passa o mouse sobre eles */
     background-color: #272727;
 }
 
